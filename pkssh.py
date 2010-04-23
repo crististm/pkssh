@@ -2,10 +2,15 @@
 
 
 # Copyright (c) 2010 by Cristian Stoica <crististm@gmail.com>
+#
+# This program is distributed under the terms of the
+# GNU General Public License version 2
+
 
 """This module allows you to run processes and perform file operations
 on a remote machine using a secured SSH connection.
 The interface tries to mimic that of subprocess module."""
+
 
 import os
 import paramiko
