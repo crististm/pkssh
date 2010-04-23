@@ -10,6 +10,6 @@ setup(name='pkssh',
       author='Cristian Stoica',
       author_email='crististm@gmail.com',
       py_modules=['pkssh'],
-      license='GPLv2'
+      license='GPLv2',
+      requires=['paramiko'],
       )
-
