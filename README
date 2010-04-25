@@ -1,0 +1,22 @@
+Install
+
+As root run:
+$ python setup.py install
+
+
+About
+
+pkssh tries to mimic the interface of Subprocess Python module but on a remote
+machine. The low level SSH interface is provided by paramiko which is a
+required dependecy.
+
+You can find paramiko at http://www.lag.net/paramiko/
+For now pkssh can be found at git://github.com/crististm/pkssh.git
+
+
+License
+
+This program is distributed under the terms of the
+GNU General Public License version 2
+Copyright (c) 2010 Cristian Stoica <crististm@gmail.com>
+
